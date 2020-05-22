@@ -21,7 +21,7 @@ Eine Beere mit Index „i“ hat das Gewicht „Erdbeeren.WEIGHTS[i]“ und die 
 6. Im Erdbeerland sind 100 Becher vorhanden (final int BECHER_VORHANDEN). In jeden dieser Becher passen 10 Erdbeeren (final int BECHER_GRÖSZE). Die Methode „fülleBecher“ bestimmt welche Beeren ausgehend von einem Index in einen Becher kommen. Dazu übernimmt sie als Parameter die Klassifizerungen und den Index von welchem losgestartet werden soll. Von diesem Index aus sollen die nächsten 10 reifen Erdbeeren in den Becher gelangen.
 Der Rückgabewert ist dann ein int Array in welchem die Indizes dieser 10 reifen Erdbeeren (inkl. falls diese reif ist, der Erdbeere mit der laut Index gestartet wurde) enthalten sind.
 
-7. In der letzten Methode soll mittels des double Arrays mit Gewichten und eines solchen int Arrays mit Erdbeeren in einem Becher das Netto-Gewicht eines Bechers zurückgegeben werden.
+7. In der letzten Methode soll mittels des double Arrays mit Gewichten und eines solchen int Arrays mit Erdbeeren in einem Becher das Netto-Gewicht eines Bechers (welcher mittels Methode „fülleBecher“ aus Aufgabe 6 erstellt werden kann) zurückgegeben werden.
 
 ## English
 
@@ -42,4 +42,4 @@ A berry with index "i" has the weight "Erdbeeren.WEIGHTS[i]" and the classificat
 6. 100 cups are available in the Erdbeerland (final int BECHER_VORHANDEN). In each of these cups 10 strawberries fit (final int BECHER_GRÖSZE). The method "fülleBecher" determines which berries are put into a cup starting from an index. For this purpose, it takes as parameters the classifications and the index from which it should start. From this index, the next 10 ripe strawberries should be placed in the cup.
 The return value is then an int array containing the indices of these 10 ripe strawberries (including, if ripe, the strawberry with which the index was started).
 
-7. In the last method the net weight of a cup should be returned using the double array with weights and such an int array with strawberries in a cup.
+7. In the last method the net weight of a cup should be returned using the double array with weights and such an int array with strawberries in a cup (as given by the method “fülleBecher” of task 6).
